@@ -1,0 +1,122 @@
+.quotes-section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.quotes-section-text {
+    height: 100px;
+    background-color: white;
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background: rgba(153, 153, 153, 0.5);
+    clear: both;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+.quotes-section-slider {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    clear: both;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: 100px;
+    background-color: white;
+}
+
+
+
+.quotes-section-slider-mask {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.quote-1 {
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+}
+
+
+
+.quote-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -1.5px;
+}
+
+@media screen and (max-width:479px) {
+    .quotes-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 27px;
+    }
+
+    h5 {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .quote-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .quotes-section-slider {
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .quotes-section {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 31px;
+    }
+
+    h5 {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .quote-text {
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: -1px;
+    }
+}

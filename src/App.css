@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+p {
+  font-size: 17px;
+}
+
+.button {
+
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 35px;
+  border: 2px solid black;
+  background-color: transparent;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: -1px;
+  text-decoration: none;
+
+}
+
+.grey-box {
+  height: auto;
+  min-height: 600px;
+  padding-top: 150px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: whitesmoke;
+  text-align: center;
+}

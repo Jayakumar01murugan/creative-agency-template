@@ -1,0 +1,101 @@
+.agency_header img {
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+  width: 1400px;
+  height: 900px;
+  background-color: transparent;
+
+}
+
+.header-section {
+  height: 100%;
+  min-height: 0px;
+  padding: 20px;
+}
+
+
+.header-section-slider {
+  height: 100%;
+  position: relative;
+  height: 300px;
+  text-align: center;
+  background: rgba(153, 153, 153, 0.5);
+  clear: both;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.each-slide-effect>div {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 657px;
+}
+
+
+
+
+
+.container {
+  display: block;
+  width: 75%;
+  margin-top: 275px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+}
+
+
+h1 {
+  margin-top: -194px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 56px;
+  line-height: 54px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h4 {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Vollkorn, serif;
+  color: white;
+  font-size: 17px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+path {
+  fill: white;
+}
+
+
+.default-nav {
+  background-color: red;
+}
+
+.react-slideshow-container .default-nav:first-of-type,
+.react-slideshow-container .default-nav:last-of-type {
+  background: none;
+}
+
+@media screen and (max-width:990px) {
+  .react-slideshow-container .default-nav:first-of-type {
+    display: none;
+  }
+
+
+
+  .react-slideshow-container .default-nav:last-of-type {
+    display: none;
+  }
+
+}
