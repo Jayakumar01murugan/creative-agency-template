@@ -10,10 +10,10 @@ const Navbar = () => {
             </div>
             <div className='agency-navbar-links'>
                 <p><a href="/">Home</a>
-                    <a href="#header">About</a>
+                    <a href="#about">About</a>
                     <a href="#services">Services</a>
                     <a href="#portfolio">Portfolio</a>
-                    <a href="#Contact">Contact</a>
+                    <a href="#contact">Contact</a>
                 </p>
 
             </div>
