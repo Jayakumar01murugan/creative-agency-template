@@ -8,7 +8,7 @@ const About = () => {
         <div className='about-section-row1-column1 hidden-field'>
           <div className='about-section-image1'></div>
         </div>
-        <div className='about-section-row2-column2 '>
+        <div className='about-section-row1-column2 '>
           <div className='about-section-grey-box'>
             <h2>Creative<br />&amp;&nbsp;fresh</h2>
             <h5>Our digital agency</h5>
