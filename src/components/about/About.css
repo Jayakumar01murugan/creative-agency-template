@@ -1,7 +1,7 @@
 .about-section {
     padding-right: 20px;
     padding-left: 20px;
-    /* display: inline; */
+    display: inline-block;
 }
 
 
@@ -21,7 +21,7 @@
 
 .about-section-grey-box {
     height: auto;
-    min-height: 450px;
+    min-height: 600px;
     padding-top: 150px;
     padding-right: 100px;
     padding-left: 100px;
@@ -109,7 +109,7 @@
     .about-section-row1-column1,
     .about-section-row2-column1 {
         margin-top: 20px;
-        padding-right: opx;
+        padding-right: 0px;
         width: 100%;
         left: auto;
         right: auto;
@@ -141,7 +141,8 @@
 
 
 @media screen and (max-width: 991px) {
-    .about-section-image {
+    .about-section-image1,
+    .about-section-image2 {
         height: 400px;
     }
 
@@ -157,4 +158,5 @@
         margin-top: 15px;
     }
 }
+
 

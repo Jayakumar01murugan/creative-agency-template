@@ -18,7 +18,7 @@ const About = () => {
               disruptive user experience iPad social media angel investor alpha.
               Social proof lean startup alpha scrum project non-disclosure agreement.
             </p>
-            <a className='button' href='#portfolio'>View Portfolio</a>
+            <a className='button' href='#portfolio'>VIEW PORTFOLIO</a>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const About = () => {
               disruptive user experience iPad social media angel investor alpha.
               Social proof lean startup alpha scrum project non-disclosure agreement.
             </p>
-            <a className='button' href='#services'>Our Services</a>
+            <a className='button' href='#services'>OUR SERVICES</a>
           </div>
         </div>
         <div className='about-section-row2-column2 '>
