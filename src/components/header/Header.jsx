@@ -4,7 +4,7 @@ import slider2 from '../../images/slider2.jpeg';
 import slider3 from '../../images/slider3.jpg';
 import './header.css'
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import 'react-slideshow-image/dist/styles.css'
 
 
 
