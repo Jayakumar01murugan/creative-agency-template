@@ -33,10 +33,6 @@
         width: 50%;
     }
 
-    .counter-section-hidden {
-        margin-top: 20px;
-        padding: 0px;
-    }
     h5 {
         margin-bottom: 5px;
         font-size: 14px;
@@ -53,14 +49,14 @@
     .counter-section-row {
         margin-right: 0px;
         margin-left: 0px;
-        display: block;
+        display: inline-block;
     }
 
     .counter-section-column {
         width: 50%;
-        left: auto;
-        right: auto;
+        padding:0px 10px;
     }
+
     .counter-section-hidden {
         display: none !important;
         margin-top: 20px;

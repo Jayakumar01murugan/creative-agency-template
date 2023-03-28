@@ -9,7 +9,7 @@ const Counter = () => {
                 <div className='counter-section-column'>
                     <h2>342</h2>
                     <h5>Cups of coffee</h5>
-                </div>
+                </div> 
                 <div className='counter-section-column'>
                     <h2>756</h2>
                     <h5>Bicycle Kilometres</h5>
