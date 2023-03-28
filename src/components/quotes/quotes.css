@@ -3,16 +3,6 @@
     text-align: center;
 }
 
-h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Montserrat, sans-serif;
-    font-size: 42px;
-    line-height: 40px;
-    font-weight: 700;
-    letter-spacing: -3px;
-}
-
 .quotes-section-text {
     height: 100px;
     background-color: white;
@@ -27,7 +17,6 @@ h2 {
 
 .quotes-section-slider {
     position: relative;
-    height: 300px;
     text-align: center;
     clear: both;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -76,10 +65,6 @@ h2 {
         padding-bottom: 50px;
     }
 
-    h2 {
-        font-size: 28px;
-        line-height: 27px;
-    }
 
     h5 {
         margin-bottom: 5px;
@@ -98,16 +83,24 @@ h2 {
 
 }
 
+@media screen and (max-width:767px) {
+    .quote-text {
+        display: none;
+
+    }
+
+    .quotes-section {
+        padding: 0 25%;
+        display: inline-block;
+    }
+}
+
 @media (max-width: 991px) {
     .quotes-section {
         padding-top: 30px;
         padding-bottom: 50px;
     }
 
-    h2 {
-        font-size: 32px;
-        line-height: 31px;
-    }
 
     h5 {
         margin-bottom: 15px;

@@ -19,7 +19,7 @@ const Quotes = () => {
                     <p></p>
 
                 </div>
-
+ 
             </div> */}
             <div class="quotes-section-slider ">
                 <div class="quotes-section-slider-mask">
