@@ -86,8 +86,12 @@ h6 {
 
 @media (max-width: 767px) {
 
+    .footer {
+        display: inline-block;
+    }
+
     .footer-content {
-        /* padding: 20px; */
+        padding: 20px;
         text-align: center;
         display: flex;
 
