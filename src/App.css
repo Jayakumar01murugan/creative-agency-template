@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: 100%;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -13,7 +21,43 @@ a {
 }
 
 p {
-  font-size: 17px;
+  margin-bottom: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  font-size: 42px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h5 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: Vollkorn, serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #7d7d7d;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
 }
 
 .button {
@@ -42,4 +86,38 @@ p {
   padding-left: 100px;
   background-color: whitesmoke;
   text-align: center;
+}
+
+
+
+@media screen and (max-width: 479px) {
+  h2 {
+    font-size: 28px;
+    line-height: 27px;
+  }
+
+  h5 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 32px;
+    line-height: 31px;
+  }
+
+  h5 {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 0px;
+  }
 }
