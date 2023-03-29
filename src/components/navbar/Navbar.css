@@ -30,9 +30,6 @@
 
 .agency-navbar img {
     margin-right: 70px;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
     height: 60px;
 
 }
@@ -87,6 +84,20 @@
     content: "\e602";
 }
 
+
+@media (max-width: 479px) {
+    .agency-navbar img {
+        margin-left: 5px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .agency-navbar img {
+        margin-left: 0px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .menu-button {
         display: block;
@@ -129,5 +140,11 @@
         color: white;
     }
 
-    
+    .agency-navbar img {
+        width: 40px;
+        margin-left: 5px;
+        padding-top: 30px;
+    }
+
+
 }
