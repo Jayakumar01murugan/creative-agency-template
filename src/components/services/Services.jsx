@@ -17,7 +17,7 @@ const Services = () => {
                             Metrics research &amp; development market paradigm shift growth hacking
                             disruptive user experience iPad social media angel investor alpha.
                             Social proof lean startup alpha scrum project non-disclosure agreement.</p>
-                        <a className='button' href='#contact'>Get in touch</a>
+                        <a className='button' href='#contact'>GET IN TOUCH</a>
                     </div>
                 </div>
             </div>

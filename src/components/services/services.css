@@ -13,7 +13,6 @@
 }
 
 .services-section-row1-column1 {
-    padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 0px;
     position: relative;
@@ -23,7 +22,6 @@
 }
 
 .services-section-row1-column2 {
-    padding-bottom: 20px;
     padding-right: 0px;
     padding-left: 10px;
     position: relative;
@@ -41,7 +39,7 @@
 
 .services-grey-box {
     height: auto;
-    min-height: 450px;
+    min-height: 600px;
     padding-top: 150px;
     padding-right: 100px;
     padding-left: 100px;
@@ -52,14 +50,12 @@
 .services-section-row2-column1 {
     padding-right: 10px;
     padding-left: 0px;
-    padding-bottom: 20px;
     width: 33.33333333%;
     position: relative;
     float: left;
 }
 
 .services-section-row2-column2 {
-    padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 10px;
     width: 33.33333333%;
@@ -68,7 +64,6 @@
 }
 
 .services-section-row2-column3 {
-    padding-bottom: 20px;
     padding-right: 0px;
     padding-left: 10px;
     width: 33.33333333%;
@@ -141,11 +136,6 @@ img {
 
 
 @media (max-width: 479px) {
-    h2 {
-        font-size: 28px;
-        line-height: 27px;
-    }
-
     .services-section-row1 {
         margin-bottom: 0px;
     }
@@ -190,10 +180,13 @@ img {
 
 
 @media (max-width: 767px) {
-    .services-section-row1 {
+
+    .services-section-row1,
+    .services-section-row2 {
         margin-bottom: 0px;
         margin-left: 0;
         margin-right: 0;
+        display: block;
     }
 
 
@@ -208,6 +201,9 @@ img {
     .services-section-row1-column2 {
         margin-top: 20px;
         padding-left: 0px;
+        width: 100%;
+        left: auto;
+        right: auto;
 
     }
 
@@ -215,18 +211,11 @@ img {
         height: 250px;
     }
 
-    .services-section-row2 {
-        margin-bottom: 0px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .services-section-row2-column1,
     .services-section-row2-column2,
     .services-section-row2-column3 {
         margin-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 0px;
+        padding: 0px;
         width: 100%;
         left: auto;
         right: auto;
@@ -246,17 +235,14 @@ img {
         min-height: 100px;
         margin-top: 0px;
         padding: 20px;
+
+
     }
 
 
 }
 
 @media (max-width: 991px) {
-    h2 {
-        font-size: 32px;
-        line-height: 31px;
-    }
-
     p {
         font-size: 13px;
         line-height: 21px;
