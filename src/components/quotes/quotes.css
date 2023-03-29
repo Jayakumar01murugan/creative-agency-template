@@ -77,21 +77,20 @@
         line-height: 24px;
     }
 
-    .quotes-section-slider {
+    /* .quotes-section-slider {
         height: 130px;
-    }
+    } */
 
 }
 
 @media screen and (max-width:767px) {
-    .quote-text {
-        display: none;
-
-    }
-
     .quotes-section {
         padding: 0 25%;
         display: inline-block;
+    }
+
+    .quotes-section-slider {
+        display: none;
     }
 }
 
