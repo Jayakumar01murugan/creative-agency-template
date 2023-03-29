@@ -243,11 +243,6 @@ img {
 }
 
 @media (max-width: 991px) {
-    p {
-        font-size: 13px;
-        line-height: 21px;
-    }
-
     .services-image {
         height: 400px;
     }
