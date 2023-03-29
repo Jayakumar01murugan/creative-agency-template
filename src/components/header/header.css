@@ -1,34 +1,10 @@
-
-
-.agency_header img {
-  position: relative;
-  background-repeat: no-repeat;
-  margin: 10px 10px;
-  width: 1400px;
-  height: 900px;
-  background-color: transparent;
-
-}
-
 .header-section {
-  height: 100%;
-  min-height: 0px;
   padding: 20px;
 }
 
-
-.header-section-slider {
-  height: 100%;
-  position: relative;
-  height: 300px;
-  text-align: center;
-  background: rgba(153, 153, 153, 0.5);
-  clear: both;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-
-.each-slide-effect>div {
+.slide1,
+.slide2,
+.slide3 {
 
   display: flex;
   align-items: center;
@@ -37,11 +13,7 @@
   height: 95vh;
 }
 
-
-
-
-
-.container {
+.slide-container {
   display: block;
   width: 75%;
   margin-top: 275px;
@@ -79,6 +51,15 @@ path {
   fill: white;
 }
 
+.slide1,
+.slide2 {
+  background-position: 50% 0px;
+}
+
+.slide3 {
+  background-position: 50% 100%;
+}
+
 
 .default-nav {
   background-color: red;
@@ -89,15 +70,49 @@ path {
   background: none;
 }
 
+.react-slideshow-container .default-nav:first-of-type:hover,
+.react-slideshow-container .default-nav:last-of-type:hover {
+  background: none;
+}
+
+
+@media screen and (max-width:467px) {
+  .slide-container {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slide-container {
+    margin-top: 100px;
+  }
+}
+
 @media screen and (max-width:990px) {
   .react-slideshow-container .default-nav:first-of-type {
     display: none;
+  }
+
+  h1 {
+    margin-bottom: 5px;
+    font-size: 48px;
+    line-height: 46px;
   }
 
 
 
   .react-slideshow-container .default-nav:last-of-type {
     display: none;
+  }
+
+  .slide-container {
+    width: 85%;
+    margin-top: 250px;
   }
 
 }
