@@ -39,6 +39,10 @@
     text-align: center;
 }
 
+.color:hover {
+    opacity: 1;
+}
+
 .portfolio-inner {
     height: 100%;
     padding-top: 40%;

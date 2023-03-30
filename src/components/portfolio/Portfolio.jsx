@@ -21,14 +21,14 @@ const Portfolio = () => {
                     </p>
                 </div>
                 <div className='portfolio-section-row1-column2 col' >
-                    {/* <a class="w-lightbox w-inline-block portfolio-lightbox" href="#"><div class="portfolio-hover-colour"><div class="colour"><div class="portfolio-inner"><p><span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span></p></div></div></div><img class="portfolio-thumbnail" src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9102ede1286e5f007d0b_port5-small.jpg" />
+                    {/* <a className="w-lightbox w-inline-block portfolio-lightbox" href="#"><div className="portfolio-hover-colour"><div className="colour"><div className="portfolio-inner"><p><span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span></p></div></div></div><img className="portfolio-thumbnail" src="https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/552b9102ede1286e5f007d0b_port5-small.jpg" />
                     </a> */}
 
                     <div className='portfolio-hover-color portfolio-section-hover'>
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                         <div className='color'>
                             <div className='portfolio-inner'>
                                 <p>
-                                    <span class="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
+                                    <span className="white">PORTFOLIO&nbsp;TITLE<br />Branding, Web Design</span>
                                 </p>
                             </div>
                         </div>
